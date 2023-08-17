@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Columns</title>
+	<style>
+		article{
+			column-count: 3;
+			column-gap: 40px;
+			column-rule-style: solid;
+			column-rule-width: 1px;
+			column-rule-color: solid;
+			column-rule: 1px solid coral;
+		}
+		article h1{
+			column-span: all;
+
+		}
+		.textbox1{
+			border: 2px solid;
+			padding: 20px;
+			width: 300px;
+			overflow: auto;
+			resize: both;
+		}
+		.textbox2{
+			margin: 20px;
+			padding: 10px;
+			width: 300px;
+			height: 100px;
+			border: 1px solid black;
+			outline: 1px solid red;
+			outline-offset: 10px;
+		}
+		.flex-container{
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+			width: 400px;
+			height: 250;
+			background-color: black;
+
+		}
+		.flex-item{
+			background-color: lightblue;
+			width: 100px;
+			height: 100px;
+			margin: 10px;
+		}
+		.first{
+			order: -1;
+		}
+	</style>
+</head>
+<body>
+	<article>
+		<h1>Article Tittle</h1>
+		On Friday, March 11, global human rights activist Ensaf Haidar made a stunning announcement: her husband Raif Badawi, imprisoned in Saudi Arabia since 2012, had been released. In 2014, Badawi was found guilty of “insulting Islam” and given an egregious sentence: seven years in prison, which was soon increased to ten; a ten-year travel ban after his prison sentence; a fine equivalent to more than a quarter-million U.S. dollars; and, most horrifyingly, 1,000 lashes.Paul Fidalgo, Communications Director of the Center for Inquiry, looks back on Badawi’s decade of struggle and how Badawi’s example served as an animating force for CFI’s international advocacy for free expression and against blasphemy and apostasy laws. 
+	</article>
+	<br>
+
+	<div class="textbox1">Try and resize element</div>
+	<div class="textbox2">This is element has 10px outline</div>
+
+	<div class="flex-container">
+		<div class="flex-item">flex item 1</div>
+		<div class="flex-item first">flex item 1</div>
+		<div class="flex-item">flex item 1</div>
+</body>
+</html>

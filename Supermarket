@@ -1,0 +1,15 @@
+from datetime import datetime
+
+name=input("enter your name:")
+
+lists='''
+Rice    Rs 20/kg
+Sugar   Rs 30/kg
+Salt    Rs 20/kg 
+Oil     Rs 100/liter
+Panner  Rs 110/kg
+Maggi   Rs 50/kg
+Boost   Rs 90/each
+Colgate Rs 80/each
+'''
+print(lists)

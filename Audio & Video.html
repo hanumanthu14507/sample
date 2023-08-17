@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Audio & Video</title>
+</head>
+<body>
+	<h1>video</h1>
+	<video id="myvideo" src="http://v2v.cc/~j/thoera_testsuite/320*240.org" controls autoplay loop>
+		your broswer does not support video
+	</video>
+	<h1>Audio</h1>
+	<audio src="http://www.freesound.org/data/previews/95/95026_57789-lq.mp3"controls>
+		your broswer does not support audio
+	</audio>
+
+	<div>
+		<button onclick="document.getElementsByTagId('myaudio').play()">Play</button>
+		<button onclick="document.getElementsByTagId('myaudio').Pause()">Pause</button>
+		<button onclick="document.getElementsByTagId('myaudio').volume==0.1">+Volume==0.1</button>
+		<button onclick="document.getElementsByTagId('myaudio').Volume==0.1">-Volume</button>
+	</div>
+
+	<script>
+		var v = document.getElementsByTagId('myvideo')
+		v.play();
+	</script>
+</body>
+</html>
